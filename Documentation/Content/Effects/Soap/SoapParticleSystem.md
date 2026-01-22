@@ -1,0 +1,3 @@
+# Sistema Niagara SoapParticleSystem
+
+Sistema de partículas desenvolvido para a saboneteira. O formato característico da distribuição das partículas está associado à velocidade, definida entre -700 e -1000, em um cone de 20° de abertura, com arrasto de 200. Além disso, as partículas apresentam um formato esférico com tamanho 8 e uma distribuição direta (não uniforme). O sistema tem um tempo de duração finito. 
