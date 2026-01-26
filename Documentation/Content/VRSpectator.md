@@ -1,3 +1,3 @@
 # Pasta VRSpectator
 
-Pasta padrão da Unity, contém assets e blueprints utilizados na cena de exemplo do template de VR da Unity.
+Pasta padrão da Unreal, contém assets e blueprints utilizados na cena de exemplo do template de VR da Unreal.

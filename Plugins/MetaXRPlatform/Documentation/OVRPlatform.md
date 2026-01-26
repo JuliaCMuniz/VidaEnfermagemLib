@@ -188,7 +188,7 @@ We create a latent action with a __request generator__ (a lambda that actually c
 (a lambda that captures, as needed, the output pins that will carry the response payload).  This latent action is associated with
 a specific node instance, which allows us to preempt it with a new latent action by reentering the node.
 
-Each game tick, the latent action gets an opportunity to update.  Most of the complexity is hidden in
+Each game tick, the latent action gets an opportUnreal to update.  Most of the complexity is hidden in
 [OVRPlatformRequestsSupport.cpp](../Source/OVRPlatform/Private/OVRPlatformRequestsSupport.cpp).
 During one of those updates, the request generator will be called and another callback is attached to
 the _UOvrPlatformSubsystem_ messaging system.  This callback will process the response, which in turn is passed
