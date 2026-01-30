@@ -86,6 +86,8 @@ Rotina para atualizar a lista de passos exibidos.
 
 Inicia com a limpeza da lista, seguida por um loop varrendo os passos recebidos e, a cada iteração, cria um objeto da classe StepListEntryObject contendo os valores obtidos com a chamada da interface e insere no widget de lista de passos, acionando o seu método OnListObjectSet e populando a lista.
 
+Nota: foi escolhido o método de popular a variável dos objetos de lista após sua criação ao invés de instanciar o objeto inicializado com o conteúdo da variável, pois percebeu-se que havia um problema de cache que afetava o funcionamento correto de rotinas de atualização de valor dos itens da lista.
+
 #### GetStoryStepsArray
 
 Aciona a interface StoryListManagerInterface e chama o método GetStorySteps para obter os passos associados à história do item. 
